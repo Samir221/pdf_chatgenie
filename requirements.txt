@@ -1,0 +1,9 @@
+streamlit
+azure-storage-blob==12.8.1
+langchain
+openai
+transformers
+PyPDF2
+numpy
+tiktoken
+faiss-cpu
