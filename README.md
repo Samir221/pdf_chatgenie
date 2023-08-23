@@ -1,16 +1,16 @@
 # PDF ChatGenie🧞‍♂️
 
-PDF ChatGenie is a dynamic application designed to streamline and enhance the interaction with PDF documents. Leveraging modern cloud technologies, this application is hosted on Azure, making it scalable and easily accessible from anywhere.
+PDF ChatGenie is a dynamic application designed to streamline and enhance the interaction with PDF documents. By leveraging OpenAI's powerful LLM technology and modern cloud technologies, this application is hosted on Azure, ensuring it is scalable and accessible from anywhere.
 
 ## Description
 
-PDF ChatGenie provides a user-friendly interface, enabling users to seamlessly interact with PDF files. With a focus on ease-of-use, this application is designed with both technical and non-technical users in mind.
+PDF ChatGenie provides a user-friendly interface, enabling users to seamlessly interact with PDF files. Built upon OpenAI's LLM technology, it offers advanced and intuitive interactions with PDF content. With a focus on ease-of-use, this application is designed with both technical and non-technical users in mind.
 
 ## Features
 
 - **Cloud-hosted**: Deployed on Azure Container Instance for reliable access.
 - **Integrated with Azure Container Registry**: Streamlines the deployment process and ensures version control.
-- **Dynamic Interaction**: Offers users an interactive experience with PDFs.
+- **Dynamic Interaction**: Uses OpenAI's LLM technology to offer users an enhanced interactive experience with PDFs.
   
 ## Technical Specifications
 
@@ -24,6 +24,7 @@ PDF ChatGenie provides a user-friendly interface, enabling users to seamlessly i
 1. Azure Subscription
 2. Azure CLI
 3. Docker
+4. OpenAI API Access (for LLM technology integration)
 
 ## Usage
 
@@ -36,6 +37,3 @@ Samir Chawla (samir.chawla6@gmail.com)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-   
-
