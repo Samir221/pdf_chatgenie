@@ -36,10 +36,12 @@ uploaded_files = {}
 
 SESSION_TIMEOUT = 3600  # File lifetime in seconds, e.g., 1 hour
 
+
 class Document:
     def __init__(self, content, metadata=None):
         self.page_content = content
         self.metadata = metadata if metadata else {}
+
 
 class FilePreparer:
     def __init__(self):
@@ -134,6 +136,7 @@ class FilePreparer:
                     del uploaded_files[filename]
                 except Exception as e:
                     print(f"Error deleting {filename}: {e}")
+
 
 class ChatBot:
     def __init__(self, apikey):
